@@ -1,194 +1,86 @@
-body{
-	margin: 0;
-	padding: 0;
-	font-size: 15px;
-	font-family: sans-serif;
-	background-color: #f4f4f4
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="image/Gustiandra Lesmana.jpg">
+	<title>Biodata | Gustiandra Lesmana</title>
+	<link rel="stylesheet" type="text/css" href="style.css" >
+	<meta name="viewport" content="width=device-width">
+</head>
 
-.container{
-	width: 80%;
-	margin:auto;
-	overflow: hidden;
-}
+<body>
+	<header>
+		<div class="container">
+			<div id="atas">
+				<h1>BIODATA</h1>
+			</div>
+			<nav><ul>
+				<li class="active"><a href="intro.html">Home</a> </li>
+				<li class="active"><a href="biodata.html">Biodata</a> </li>
+				<li class="active"><a href="form.html">Tanya Saya</a></li>
+			</ul></nav>
+		</div>
+	</header>
 
-header{
-	background: linear-gradient(to right, #005aff, #0012ff);
-	color: #fff;
-	padding-top: 30px;
-	min-height: 70px;
-	border-bottom: 3px solid #0012ff; 
-}
+<section id="tengah">
+	<div class="container">
+		<img src="image/Gustiandra Lesmana.jpg">
+		<h1>GUSTIANDRA LESMANA</h1>
+		<P>
+			Mari lihat biodata saya
+		</P>
+	</div>
+</section> 
 
-header #atas {
-	float: left;
-}
+<section id="lagu">
+	<div class="container">
+		<h3>Play Backsound</h3>
+		<audio src="image/Hiroshi Kitadani - We Are!.mp3" controls></audio>
+	</div>
+</section>
+	
+	<section id="isi">
+		<div class="container">
+			<div class="item">
+				<img src="image/profildiri.png">
+				<h3>PROFIL DIRI</h3>
+				<ul type="none"><li>Nama saya Gustiandra Lesmana, berjenis kelamin laki-laki dan bukan <s>perempuan</s> dan lahir di Malang, Jawa Timur pada 31 juli 1998. Status pekerjaan saat ini adalah sebagai mahasiswa, sedangkan status pernikahan masih lajang.</li></ul>
+			</div>
+			<div class="item">
+					<img src="image/pendidikan.png">
+					<h3>PENDIDIKAN</h3>
+					<ul type="none">
+						<li>SDN 22 Sui. Ambawang (2004-2010)</li>
+						<li>SMPN 18 Pontianak (2010-2013)</li>
+						<li>SMKN 7 Pontianak - Multimedia (2013-2016)</li>
+						<li>UNTAN - Informatika (2017- Sekarang)</li>
+					</ul>
+			</div>
+			<div class="item">
+					<img src="image/pengalamankerja.png">
+					<h3>PENGALAMAN KERJA</h3>
+					<ul type="none">
+						<li><b>Infinity Kreasi Digital Printing - Magang</b></li>
+						<li>Saat SMK saya melakukan magang di percetakan tersebut sebagai desainer.</li><br>
+						<li><b>Infinity Kreasi Digital Printing - Magang</b></li>
+						<li>Setelah lulus SMK, saya tidak langsung kuliah, tapi bekerja di percetakan tersebut lebih dulu. Tugas saya membuat berbagai macam desain, seperti spanduk, brosur, kartu nama, berbagai macam banner, undangan, dll.</li>
+					</ul>
+			</div>
+		</div>
+	</section>
 
-header #atas h1{
-	margin:0; 
-}
-header nav{
-	float: right;
-	margin-top: 10px;
-}
+	<section id="video">
+		<div class="container">
+			<h3>Cara Terbang</h3>
+			<center><iframe width="50%" height="300px" src="https://www.youtube.com/embed/ean-UXzbQMs" frameborder="0"></iframe></center>
+		</div>	
+	</section>
 
-header li{
-	float: left;
-	display: inline;
-	padding: 0 20px 0 20px;
-}
+	<footer>
+		<p>
+			Gustiandra Lesmana, Copyright @2019
+		</p>
+	</footer>
  
-header a{
-	color: #fff;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 20ppx;
-} 
-
-ul {
-	margin: 0;
-	padding: 0;
-}
-
-header #atas, header .active a{
-	color: #fff;
-	font-weight: bold;
-}
-
-header a:hover{
-	color: #005aff ;
-	font-weight: bold;
-}
-
-textarea{
-	color: gray; 
-}
-
-
-#tengah {
-	min-height: 400px;
-	background: url(image/background.jpg) no-repeat 0px 0px; 
-	text-align: center;
-	color: white;
-}
-
-
-
-#tengah h1{
-	margin-top: 5px;
-	font-size: 55px;
-	margin-bottom: 0px;
-	-webkit-text-stroke: 3px black;
-}
-
-#tengah p{
-	margin-top: 5px;
-	font-size: 20px;
-}
-
-#tengah img{
-	margin-top: 200px;
-	border-radius: 50%;
-	text-align: center;
-	width: 115px;
-	border-style: solid;
-	border-color: #fff;
-
-}
-
-#lagu{
-
-	padding: 2px;
-	background: linear-gradient(to right, #0012ff, #005aff);
-}
-
-#lagu h3{
-	float: left;
-	color: #fff;
-	margin-left: 10px;
-}
-
-#lagu audio{	
-	float: right;
-	margin-left: 10px;
-}
-
-#isi {
-	margin-top: 20px;
-}
-
-#isi ul{
-	font-size: 16px;
-}
-
-
-#isi img{
-	width: 40%;
-}
-
-#isi .item{
-	float: left;
-	text-align: center;
-	width: 30%;
-	padding: 10px;
-}
-
-#video{
-	text-align: center;
-	margin-top: 50px; 
-}
-footer{
-	padding: 10px;
-	margin-top: 100px;
-	color: #fff;
-	background: linear-gradient(to right, #005aff, #0012ff);
-	text-align: center;
-}
-
-.tombol{
-	height: 45px;
-	width: 100px;
-	background-color:#005aff;
-	border: 0;
-	padding-left: 20px;
-	padding-right: 20px;
-	color: #fff;
-}
-
-#atasform{
-	margin-top: 40px;
-	font-size: 20px;
-}
-
-#intro{
-	text-align: center;
-}
-
-@media(max-width: 768px){
-	header #atas,
-	header nav,
-	header nav li,
-	#lagu h3,
-	#lagu audio,
-	#isi .item{
-		float: none;
-		text-align: center;
-		width: 100%;
-	}
-
-	header{
-		padding-bottom: 20px; 
-	}
-
-	#tengah{
-		background: url(image/background.jpg) ;
-		width: 100%;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-
-	}
-
-}
-
-
+</body>
+</html>
