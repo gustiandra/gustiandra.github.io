@@ -37,7 +37,11 @@ header li{
 	display: inline;
 	padding: 0 20px 0 20px;
 }
- 
+#waktu{
+	margin-bottom: 0px;
+	color:white;
+	font-size:13px;
+} 
 header a{
 	color: #fff;
 	text-decoration: none;
