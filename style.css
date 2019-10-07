@@ -1,13 +1,13 @@
 body{
 	margin: 0;
-	padding: 0;
+	padding: 0px;
 	font-size: 15px;
 	font-family: sans-serif;
 	background-color: #f4f4f4
 }
 
 .container{
-	width: 90%;
+	width: 95%;
 	margin:auto;
 	overflow: hidden;
 }
@@ -173,7 +173,7 @@ textarea{
 }
 
 #cerita img{
-	margin-top: 20px;
+	margin-top: 0px;
 	border-radius: 50%;
 	text-align: center;
 	width: 115px;
@@ -185,6 +185,7 @@ textarea{
 #cerita .item img{
 	float: left;
 	width: 20%;
+	margin-top: 0;
 }
 #cerita .item p{
 	margin-left: 270px;
@@ -257,7 +258,7 @@ footer{
 	header nav li,
 	#lagu h3,
 	#lagu audio,
-	#isi .item, #video .isivideo{
+	 #video .isivideo{
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -278,6 +279,10 @@ footer{
 		border-style: solid;
 		border-color: #1165ff;
 		
+}
+#isi .item {
+	width: 95%;
+
 }
 
 	#cerita .item img{
@@ -312,10 +317,15 @@ footer{
 	#tengah{
 		background: url(image/background.jpg) ;
 		width: 100%;
+
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 
+	}
+	#tengah h1{
+		font-size: 47px;
+		text-align: center;
 	}
 
 	#atasform{
